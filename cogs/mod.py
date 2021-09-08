@@ -41,7 +41,7 @@ class ModerationCommands(commands.Cog):
         if ctx.author.id == self.bot_creator_id:
             try:
                 embed2=discord.Embed(title="Cleared Screen", description="The command ran successfully! ", color=0xff0000)
-                embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed2.add_field(name="Operating System", value=f"```{pltfsys()}```", inline=False)
                 embed2.add_field(name="User", value=f"```{pcusername()}```", inline=False)
                 embed2.add_field(name="Python Version", value=f"```{pyversion()}```", inline=False)
@@ -55,7 +55,7 @@ class ModerationCommands(commands.Cog):
 
             except Exception as e:
                 embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                 embed2.add_field(name="Error:", value=f"{e}", inline=False)
                 embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -64,7 +64,7 @@ class ModerationCommands(commands.Cog):
         
         else:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"```You don't have permission to use this command!```", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -89,7 +89,7 @@ class ModerationCommands(commands.Cog):
                             await ctx.send(f'`{cnmd}`\n```{stderr.decode().strip()}```')
                         else:
                             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                             embed2.add_field(name="Error:", value=f"Unable to get the output!", inline=False)
                             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -98,7 +98,7 @@ class ModerationCommands(commands.Cog):
                     
                     except Exception as e:
                         embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                        embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                        embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                         embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                         embed2.add_field(name="Error:", value=f"```{e}```", inline=False)
                         embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -107,7 +107,7 @@ class ModerationCommands(commands.Cog):
 
             except Exception as e:
                 embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                 embed2.add_field(name="Error:", value=f"{e}", inline=False)
                 embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -116,7 +116,7 @@ class ModerationCommands(commands.Cog):
         
         else:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"```You don't have permission to use this command!```", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -140,7 +140,7 @@ class ModerationCommands(commands.Cog):
                     command = "clear"
 
                 embed2=discord.Embed(title="Cleared Screen", description="The command ran successfully! ", color=0xff0000)
-                embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed2.add_field(name="OS", value=f"{ostype}", inline=False)
                 embed2.add_field(name="Command", value=f"```{command}```", inline=False)
                 await loading_message.delete()
@@ -148,7 +148,7 @@ class ModerationCommands(commands.Cog):
 
             except Exception as e:
                 embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                 embed2.add_field(name="Error:", value=f"{e}", inline=False)
                 embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -157,7 +157,7 @@ class ModerationCommands(commands.Cog):
         
         else:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"```You don't have permission to use this command!```", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -172,7 +172,7 @@ class ModerationCommands(commands.Cog):
         try:
             # Create the DM and send it
             embeddmlol = discord.Embed(title="YOU HAVE BEEN NUKED!", description=f"```{reason}```", color=0xff0000)
-            embeddmlol.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embeddmlol.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embeddmlol.set_image(url="https://tenor.com/view/bill-gates-cake-face-cake-smash-gif-14539940")
             embeddmlol.set_footer(text=f"by {ctx.author.name}")
             await member.send(embed=embeddmlol)
@@ -181,7 +181,7 @@ class ModerationCommands(commands.Cog):
             await member.kick(reason=reason)
 
             embed=discord.Embed(title=f":boom: Kicked {member.name}", color=0xff0000)
-            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed.set_thumbnail(url=f"https://cdn.discordapp.com/attachments/877796755234783273/879296561413259294/toppng.com-this-is-an-image-of-a-person-kicking-kick-1085x1335.png")
             embed.add_field(name="Reason", value=f"{reason}", inline=False)
             embed.add_field(name="By", value=f"{ctx.author.mention}", inline=False)
@@ -191,7 +191,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"{e}", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -208,7 +208,7 @@ class ModerationCommands(commands.Cog):
             await member.kick(reason=reason)
 
             embed=discord.Embed(title=f":boom: Kicked {member.name}", color=0xff0000)
-            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed.set_thumbnail(url=f"https://cdn.discordapp.com/attachments/877796755234783273/879296561413259294/toppng.com-this-is-an-image-of-a-person-kicking-kick-1085x1335.png")
             embed.add_field(name="Reason", value=f"{reason}", inline=False)
             embed.add_field(name="By", value=f"{ctx.author.mention}", inline=False)
@@ -218,7 +218,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"{e}", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -234,7 +234,7 @@ class ModerationCommands(commands.Cog):
             await user.ban(reason=reason)
 
             embed=discord.Embed(title=f":boom: Banned {user.name}", color=0xff0000)
-            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed.set_thumbnail(url=f"https://cdn.discordapp.com/attachments/877796755234783273/879296561413259294/toppng.com-this-is-an-image-of-a-person-kicking-kick-1085x1335.png")
             embed.add_field(name="Reason", value=f"{reason}", inline=False)
             embed.add_field(name="By", value=f"{ctx.author.mention}", inline=False)
@@ -244,7 +244,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"{e}", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -258,7 +258,7 @@ class ModerationCommands(commands.Cog):
         try:
             # Create the DM and send it
             embeddmlol = discord.Embed(title="YOU HAVE BEEN NUKED!", description=f"```{reason}```", color=0xff0000)
-            embeddmlol.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embeddmlol.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             # embeddmlol.set_image(url="https://tenor.com/view/rage-broccoli-nuke-gachibrocc-gachi-gif-21547004")
             embeddmlol.set_image(url="https://tenor.com/view/nope-orbital-laser-nuke-it-from-orbit-gif-14464332")
             embeddmlol.set_footer(text=f"by {ctx.author.name}")
@@ -268,7 +268,7 @@ class ModerationCommands(commands.Cog):
             await user.ban(reason=reason)
 
             embed=discord.Embed(title=f":boom: Nuked {user.name} lol", color=0xff0000)
-            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed.set_thumbnail(url=f"https://cdn.discordapp.com/attachments/877796755234783273/879296561413259294/toppng.com-this-is-an-image-of-a-person-kicking-kick-1085x1335.png")
             embed.add_field(name="Reason", value=f"{reason}", inline=False)
             embed.add_field(name="By", value=f"{ctx.author.mention}", inline=False)
@@ -278,7 +278,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"{e}", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -302,14 +302,14 @@ class ModerationCommands(commands.Cog):
                     await ctx.guild.unban(user)
 
                     embed=discord.Embed(title=":hammer: Unbanned User", description=f"{user.mention}", color=0xff0000)
-                    embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                    embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                     embed.set_footer(text=f"Requested by {ctx.author.name}")
                     await loading_message.delete()
                     await ctx.send(embed=embed)
                     return
         except Exception as e:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"{e}", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -330,7 +330,7 @@ class ModerationCommands(commands.Cog):
                     msgtxt = "messages"
 
                 embed=discord.Embed(title="Success!", color=0xff0000)
-                embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed.add_field(name="Action", value=f"Deleted {amount} {msgtxt}!", inline=False)
                 embed.set_footer(text=f"Requested by {ctx.author.name}")
                 await ctx.send(embed=embed, delete_after=4)
@@ -344,7 +344,7 @@ class ModerationCommands(commands.Cog):
                     msgtxt = "messages"
 
                 embed=discord.Embed(title="Success!", color=0xff0000)
-                embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed.add_field(name="Action", value=f"Deleted {amount} {msgtxt}!", inline=False)
                 embed.set_footer(text=f"Requested by {ctx.author.name}")
                 await ctx.send(embed=embed, delete_after=4)
@@ -352,7 +352,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"{e}", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -373,14 +373,14 @@ class ModerationCommands(commands.Cog):
                     msgtxt = "messages"
 
                 embed=discord.Embed(title="Success!", color=0xff0000)
-                embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed.add_field(name="Action", value=f"Deleted {amount} {msgtxt} sent by MisaBot!", inline=False)
                 embed.set_footer(text=f"Requested by {ctx.author.name}")
                 await ctx.send(embed=embed, delete_after=4)
             
             else:
                 embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                 embed2.add_field(name="Error:", value=f"Please enter a value below 100!", inline=False)
                 embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -388,7 +388,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed2=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed2.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed2.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed2.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed2.add_field(name="Error:", value=f"{e}", inline=False)
             embed2.set_footer(text=f"Requested by {ctx.author.name}")
@@ -402,7 +402,7 @@ class ModerationCommands(commands.Cog):
 
         try:
             embed=discord.Embed(title="Change Nickname", description="Completed successfully!", color=0xff0000)
-            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/880035248820342824/chuck-norris.png")
             embed.add_field(name="Original Name", value=member , inline=False)
             embed.add_field(name="New Name", value=f"{nick}", inline=False)
@@ -411,7 +411,7 @@ class ModerationCommands(commands.Cog):
                 await member.edit(nick=nick)
             except:
                 embed=discord.Embed(title="Change Nickname", description="an Error has occured!", color=0xff0000)
-                embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/880035248820342824/chuck-norris.png")
                 embed.add_field(name="Error", value="Unable to change the nickname!", inline=False)
                 embed.set_footer(text=f"Requested by {ctx.author.name}")
@@ -426,7 +426,7 @@ class ModerationCommands(commands.Cog):
         
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -447,14 +447,14 @@ class ModerationCommands(commands.Cog):
                 sec = "seconds"
             embed=discord.Embed(color=0xff0000)
             embed.add_field(name="Channel Settings - Slowmode", value=f"**+ Set slow mode to:** {seconds} {sec}\n**+ By:** {ctx.author.mention}", inline=False)
-            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed.set_footer(text=f"Requested by {ctx.author.name}")
             await loading_message.delete()
             await ctx.send(embed=embed)
         
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -477,7 +477,7 @@ class ModerationCommands(commands.Cog):
                 # await ctx.guild.create_custom_emoji(name = (name), image = link)
                 em = discord.Embed(title="New Emoji Added", color=0xff0000)
                 em.set_thumbnail(url=link)
-                em.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                em.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 em.add_field(name="Name", value=f'{name}')
                 em.set_footer(text=f"Requested by {ctx.author.name}")
                 em.add_field(name="Requested by", value=f'{ctx.author.mention}')
@@ -494,7 +494,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -520,7 +520,7 @@ class ModerationCommands(commands.Cog):
             await member.add_roles(role)
 
             em = discord.Embed(title="Mute", color=0xff0000)
-            em.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            em.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             em.add_field(name=f"✅ {member} was muted", value=f"by {ctx.author.mention}", inline=False)
             em.add_field(name=f"Reason", value=f"{reason}", inline=False)
             await loading_message.delete()
@@ -530,7 +530,7 @@ class ModerationCommands(commands.Cog):
             await member.add_roles(role)
 
             em = discord.Embed(title="Mute", color=0xff0000)
-            em.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            em.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             em.add_field(name=f"✅ {member} was muted", value=f"by {ctx.author.mention}", inline=False)
             em.add_field(name=f"Reason", value=f"{reason}", inline=False)
             await loading_message.delete()
@@ -551,7 +551,7 @@ class ModerationCommands(commands.Cog):
         try:
             await member.remove_roles(role)
             em = discord.Embed(title="Unmute", color=0xff0000)
-            em.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            em.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             em.add_field(name=f"✅ {member} was unmuted", value=f"by {ctx.author.mention}")
             # em.set_footer(text=f"Requested by {ctx.author.name}")
             await loading_message.delete()
@@ -559,7 +559,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -582,7 +582,7 @@ class ModerationCommands(commands.Cog):
                 # embed = discord.Embed(title="muted!", description=f"{member.mention} has been tempmuted ", colour=0xff0000)
                 embed.add_field(name="reason:", value=reason, inline=False)
                 embed.add_field(name="time left for the mute:", value=f"{time}{d}", inline=False)
-                embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed.set_footer(text=f"Requested by {ctx.author.name}")
                 await loading_message.delete()
                 await ctx.send(embed=embed)
@@ -593,7 +593,7 @@ class ModerationCommands(commands.Cog):
                         await member.remove_roles(role)
                     else:
                         embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                        embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                        embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                         embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                         embed3.add_field(name="Error:", value=f"Please enter a value below 1800 seconds", inline=False)
                         embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -605,7 +605,7 @@ class ModerationCommands(commands.Cog):
                         await member.remove_roles(role)
                     else:
                         embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                        embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                        embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                         embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                         embed3.add_field(name="Error:", value=f"Please enter a value below 300 minutes", inline=False)
                         embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -617,14 +617,14 @@ class ModerationCommands(commands.Cog):
                         await member.remove_roles(role)
                     else:
                         embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                        embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                        embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                         embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                         embed3.add_field(name="Error:", value=f"Please enter a value below 6 hours", inline=False)
                         embed3.set_footer(text=f"Requested by {ctx.author.name}")
                         await ctx.send(embed=embed3)
                         
                 embed = discord.Embed(title="unmute (temp) ", description=f"unmuted -{member.mention} ", colour=0xff0000())
-                embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed.set_footer(text=f"Requested by {ctx.author.name}")
                 await ctx.send(embed=embed)
                 return
@@ -637,7 +637,7 @@ class ModerationCommands(commands.Cog):
         try:
             if member == None:
                 embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                 embed3.add_field(name="Error:", value=f"Please enter the Member", inline=False)
                 embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -648,7 +648,7 @@ class ModerationCommands(commands.Cog):
             else:
                 if rolename == None:
                     embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                    embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                    embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                     embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                     embed3.add_field(name="Error:", value=f"Please enter the rolename", inline=False)
                     embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -661,7 +661,7 @@ class ModerationCommands(commands.Cog):
                         role = discord.utils.find(lambda m: rolename.lower() in m.name.lower(), ctx.guild.roles)
                         if not role:
                             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                             embed3.add_field(name="Error:", value=f"The role: {rolename} does not exist!", inline=False)
                             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -672,7 +672,7 @@ class ModerationCommands(commands.Cog):
                         try:
                             await member.add_roles(role)
                             embed=discord.Embed(title="Added Role!", color=0xff0000)
-                            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                             embed.add_field(name="Member Name", value=f"f{member.name}", inline=False)
                             embed.add_field(name="Member ID", value=f"{member.id}", inline=True)
                             embed.add_field(name="Role Name", value=f"{rolename}", inline=False)
@@ -683,7 +683,7 @@ class ModerationCommands(commands.Cog):
 
                         except Exception as e:
                             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                             embed3.add_field(name="Error:", value=f"Unable to add role! \n{e}", inline=False)
                             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -693,7 +693,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -708,7 +708,7 @@ class ModerationCommands(commands.Cog):
         try:
             if member == None:
                 embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                 embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                 embed3.add_field(name="Error:", value=f"Please enter the Member", inline=False)
                 embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -719,7 +719,7 @@ class ModerationCommands(commands.Cog):
             else:
                 if rolename == None:
                     embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                    embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                    embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                     embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                     embed3.add_field(name="Error:", value=f"Please enter the rolename", inline=False)
                     embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -732,7 +732,7 @@ class ModerationCommands(commands.Cog):
                         role = discord.utils.find(lambda m: rolename.lower() in m.name.lower(), ctx.guild.roles)
                         if not role:
                             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                             embed3.add_field(name="Error:", value=f"The role: {rolename} does not exist!", inline=False)
                             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -743,7 +743,7 @@ class ModerationCommands(commands.Cog):
                         try:
                             await member.remove_roles(role)
                             embed=discord.Embed(title="Removed Role!", color=0xff0000)
-                            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                             embed.add_field(name="Member Name", value=f"f{member.name}", inline=False)
                             embed.add_field(name="Member ID", value=f"{member.id}", inline=True)
                             embed.add_field(name="Role Name", value=f"{rolename}", inline=False)
@@ -754,7 +754,7 @@ class ModerationCommands(commands.Cog):
 
                         except Exception as e:
                             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-                            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+                            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
                             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
                             embed3.add_field(name="Error:", value=f"Unable to add role! \n{e}", inline=False)
                             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -764,7 +764,7 @@ class ModerationCommands(commands.Cog):
                             
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -794,7 +794,7 @@ class ModerationCommands(commands.Cog):
         
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -827,13 +827,13 @@ class ModerationCommands(commands.Cog):
             embed.add_field(name="Invites", value=len(await ctx.guild.invites()))
             embed.set_footer(text=f"Requested by {ctx.author.name}")
             embed.set_thumbnail(url=f"{ctx.guild.icon_url}")
-            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             await loading_message.delete()
             await ctx.send(embed=embed)
         
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -863,7 +863,7 @@ class ModerationCommands(commands.Cog):
         
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -889,7 +889,7 @@ class ModerationCommands(commands.Cog):
         
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -919,14 +919,14 @@ class ModerationCommands(commands.Cog):
                 embed.add_field(name=name, value=value, inline=inline)
             
             embed.set_thumbnail(url=f"{target.avatar_url}")
-            embed.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed.set_footer(text=f"Requested by {ctx.author.name}")
             await loading_message.delete()
             await ctx.send(embed=embed)
 
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
@@ -948,7 +948,7 @@ class ModerationCommands(commands.Cog):
         try:
             em = discord.Embed(title=ctx.guild.name)
             em.set_footer(text=f"Requested by {ctx.author.name}")
-            em.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            em.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             em.set_image(url=ctx.guild.icon_url)
             em.add_field(name="Server Name:", value=f"{ctx.guild.name}", inline=False)
             await loading_message.delete()
@@ -956,7 +956,7 @@ class ModerationCommands(commands.Cog):
 
         except Exception as e:
             embed3=discord.Embed(title=":red_square: Error!", description="The command was unable to run successfully! ", color=0xff0000)
-            embed3.set_author(name="MisaBot", icon_url="https://tenor.com/view/misa-amane-misa-death-note-shinigami-eyes-anime-gif-16711123")
+            embed3.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             embed3.set_thumbnail(url="https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png")
             embed3.add_field(name="Error:", value=f"{e}", inline=False)
             embed3.set_footer(text=f"Requested by {ctx.author.name}")
