@@ -171,9 +171,9 @@ class ModerationCommands(commands.Cog):
         loading_message = await ctx.send(embed=self.please_wait_emb)
         try:
             # Create the DM and send it
-            embeddmlol = discord.Embed(title="YOU HAVE BEEN NUKED!", description=f"```{reason}```", color=0xff0000)
+            embeddmlol = discord.Embed(title="A PIE HAS BEEN THROWN AT YOU!", description=f"```{reason}```", color=0xff0000)
             embeddmlol.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
-            embeddmlol.set_image(url="https://tenor.com/view/bill-gates-cake-face-cake-smash-gif-14539940")
+            embeddmlol.set_image(url="https://cdn.discordapp.com/attachments/877796755234783273/885531290156269678/piethrow.gif")
             embeddmlol.set_footer(text=f"by {ctx.author.name}")
             await member.send(embed=embeddmlol)
 
@@ -260,7 +260,7 @@ class ModerationCommands(commands.Cog):
             embeddmlol = discord.Embed(title="YOU HAVE BEEN NUKED!", description=f"```{reason}```", color=0xff0000)
             embeddmlol.set_author(name="MisaBot", icon_url="https://cdn.discordapp.com/attachments/877796755234783273/885143153550688266/1234.gif")
             # embeddmlol.set_image(url="https://tenor.com/view/rage-broccoli-nuke-gachibrocc-gachi-gif-21547004")
-            embeddmlol.set_image(url="https://tenor.com/view/nope-orbital-laser-nuke-it-from-orbit-gif-14464332")
+            embeddmlol.set_image(url="https://cdn.discordapp.com/attachments/877796755234783273/885531282157748264/nuked.gif")
             embeddmlol.set_footer(text=f"by {ctx.author.name}")
             await user.send(embed=embeddmlol)
             
