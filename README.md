@@ -37,3 +37,5 @@ MisaBot is a fork of YourBot, customized to meet the moderation needs of the Tea
 ## Note
 
 This project was abondoned after a couple of weeks due to security concerns.
+
+This file was generated ChatGPT on `6/7/2024`.
